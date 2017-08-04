@@ -12,7 +12,7 @@ import VideoDetail from './components/video_detail';
 
 
 
-const API_KEY = '';
+const API_KEY = 'AIzaSyCiynIKbHWGqvDw7euRqYSHj_Oc3bIvUJ4';
 // This the the YouTube Data API v3 Key
 
 
