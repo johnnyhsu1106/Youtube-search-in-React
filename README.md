@@ -1,9 +1,17 @@
 ### Getting Started
+
+Before you run this web app, please apply for API KEY and copy-and-paste on index.js
+There is a vairabe called API_KEY
+Get the API KEY from you YouTube Data API v3
+https://console.developers.google.com
+
 Checkout this repo, install dependencies, then start the gulp process with the following:
 ```
 > npm install
 > npm start
 ```
+
+
 You can also deploy this app into Heroku by following instruction.
 For the initial deployment on Heroku using Heroku CLI.
 ```
