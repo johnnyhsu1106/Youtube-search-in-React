@@ -1,7 +1,7 @@
 ### Getting Started
 
 Before you run this web app, please apply for API KEY and copy-and-paste on index.js
-There is a vairabe called API_KEY
+There is a variable called API_KEY <br>
 Get the API KEY from you YouTube Data API v3
 https://console.developers.google.com
 
