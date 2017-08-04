@@ -1,25 +1,27 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
 ### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
 ```
 > npm install
 > npm start
 ```
+You can also deploy this app into Heroku by following instruction.
+For the initial deployment on Heroku using Heroku CLI.
+```
+> heroku login
+> heroku config:set NPM_CONFIG_PRODUCTION=false
+> git init
+> git add .
+> git commit -m 'Initial deployment on Heroku.'
+> heroku create -b  <Your Heroku git repo.>
+> git push heroku master
+```
+
+
+Notice:
+
+Since webpack is installed as part of the devDependencies section of the package.json,
+it won't run as part of a production-ready application.
+
+This can be fixed by configuring the application with
+heroku config:set NPM_CONFIG_PRODUCTION=false
+then re-deploying.
