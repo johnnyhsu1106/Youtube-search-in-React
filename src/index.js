@@ -12,7 +12,9 @@ import VideoDetail from './components/video_detail';
 
 
 
-const API_KEY = 'AIzaSyCpTE0JHzXs9-I0CJWt8UGAo25TNprJunM';
+const API_KEY = '';
+// This the the YouTube Data API v3 Key
+
 
 // Create a new component , This component should produce some html
 class App extends Component {
