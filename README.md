@@ -17,6 +17,7 @@ For the initial deployment on Heroku using Heroku CLI.
 ```
 
 
+![ScreenShot](https://raw.github.com/{johnnyhsu1106}/{Youtube-search-in-React}/{master}/{screenshot.png})
 Notice:
 
 Since webpack is installed as part of the devDependencies section of the package.json,
