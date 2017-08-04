@@ -14,7 +14,7 @@ const VideoDetail = ({video}) => {
         <div className="video-detail col-md-8">
 
             <div className="embed-responsive embed-responsive-16by9">
-                <iframe className="embed-responsive-item" src={url} allowfullscreen></iframe>
+                <iframe className="embed-responsive-item" src={url} allowfullscreen="allowfullscreen"></iframe>
             </div>
             <div className="details">
                 <h6>{video.snippet.title}</h6>
