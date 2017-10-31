@@ -1,5 +1,5 @@
 ### Getting Started
-<a href='https://goo.gl/C3HRaL' target='_blank'> link to web app</a> <br>
+<a href='https://goo.gl/C3HRaL'  target="_blank"> link to web app</a> <br>
 
 Before you run this web app, please apply for API KEY and copy-and-paste on index.js
 There is a variable called API_KEY <br>
