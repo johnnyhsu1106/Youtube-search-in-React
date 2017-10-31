@@ -1,5 +1,6 @@
 ### Getting Started
-<a href='https://goo.gl/C3HRaL'> link to web app</a>
+<a href='https://goo.gl/C3HRaL' target='_blank'> link to web app</a> <br>
+
 Before you run this web app, please apply for API KEY and copy-and-paste on index.js
 There is a variable called API_KEY <br>
 Get the API KEY from you YouTube Data API v3
